@@ -55,7 +55,7 @@ def emit_report(
         "duration": round(duration, 3),
         "intent": intent,
         "hero_frames": [str(frame.path) for frame in heroes],
-        "date": dt.datetime.now(dt.UTC).date().isoformat(),
+        "date": dt.datetime.now(dt.timezone.utc).date().isoformat(),
     }
 
     lines = ["---"]
