@@ -1,0 +1,10 @@
+{
+  "name": "watch",
+  "version": "1.0.0",
+  "description": "In-house Claude video watching skill for URL and local-file analysis.",
+  "author": "MarvHmn",
+  "homepage": "https://github.com/MarvHmn/Claude_Video_Watch_Skill",
+  "repository": "https://github.com/MarvHmn/Claude_Video_Watch_Skill",
+  "license": "MIT",
+  "keywords": ["claude", "skill", "video", "watch", "ffmpeg", "yt-dlp"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "watch",
+  "displayName": "Video Watch",
+  "description": "Analyze video URLs and local files with frames, transcripts, pacing, and reports.",
+  "version": "1.0.0",
+  "publisher": "MarvHmn",
+  "repository": "https://github.com/MarvHmn/Claude_Video_Watch_Skill",
+  "visibility": "private"
+}
