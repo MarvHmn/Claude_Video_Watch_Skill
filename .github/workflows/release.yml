@@ -20,8 +20,8 @@ jobs:
           python-version: "3.12"
       - name: Install tools
         run: |
-          apt-get update
-          apt-get install -y ffmpeg
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
           python -m pip install --upgrade pytest ruff yt-dlp
       - name: Verify
         run: |
